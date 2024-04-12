@@ -1,0 +1,75 @@
+.App{
+  height: 100vh;
+  width: 100%;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  display: flex;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 70%;
+  height: 100%;
+  position: relative;
+  /* justify-content:flex-end; */
+}
+
+.box-y-axis{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  left: -32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.x-axis-item{
+  margin-left: 10px;
+  background-color: white;
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  /* bottom: 0; */
+  transform: translateX((-50%));
+  color: white;
+}
+.marker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 18px;
+  background-color: cadetblue;
+  position: absolute;
+  top: -10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.graph{
+  display: flex;
+  /* position: absolute;
+  bottom: 0;
+  transform: translateX((-50%)); */
+}
+.barPeice{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
